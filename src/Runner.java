@@ -196,14 +196,14 @@ public class Runner
 		System.out.println(3.28 * (7.2 / 37) + 50);
 		
 		boolean isFirstCheaper = (3.28 * (6.0 / 37.0) + 50.0) < (3.28 * (7.2 / 37.0) + 50.0); //using variables is so much easier
-		System.out.println("The first trip is cheaper: " + isFirstCheaper);
+		System.out.println("The first trip is cheaper than the second: " + isFirstCheaper);
 		System.out.println("");
 
 		double tripOneCost = (3.28 * (6.0 / 37.0) + 50.0);
 		double tripTwoCost = (3.28 * (7.2 / 37.0) + 50.0);
 		
 		boolean isSecondCheaper = tripOneCost >= tripTwoCost; //like here we can see variables make it a lot simpler
-		System.out.println("The second trip is cheaper: " + isSecondCheaper);
+		System.out.println("The second trip is cheaper than first: " + isSecondCheaper);
 		System.out.println("");
 
 		double tripThreeCost = tripTotalCost;
@@ -219,8 +219,6 @@ public class Runner
 		boolean isThirdCheaperThanFourth = tripThreeCost < tripFourCost;
 		System.out.println("The third trip is cheaper than the fourth: " + isThirdCheaperThanFourth);
 		System.out.println("");
-		
-		
 		
 	}
 
