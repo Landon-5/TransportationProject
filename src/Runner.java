@@ -220,6 +220,8 @@ public class Runner
 		System.out.println("The third trip is cheaper than the fourth: " + isThirdCheaperThanFourth);
 		System.out.println("");
 		
+		textInput.close();
+		
 	}
 
 }
